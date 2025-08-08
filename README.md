@@ -218,11 +218,3 @@ Instagram AI caption generator, Instagram caption generator, AI Instagram captio
 
 If this project helps you, please star it. Stars and shares help more creators discover a privacy-first caption generator.
 
-## GitHub SEO Checklist
-
-- Add GitHub Topics: `instagram`, `caption-generator`, `ai`, `blip`, `gemini`, `gemma`, `nextjs`, `react`, `tailwindcss`, `fastapi`.
-- Write a concise repo description with primary keywords.
-- Upload a strong Social preview image (see Screenshots).
-- Keep README updated with clear Features, Demo, and Screenshots.
-- Share the repo on X/LinkedIn/Reddit and cross-link from your backend repo.
-- Pin the repo to your GitHub profile for extra visibility.
