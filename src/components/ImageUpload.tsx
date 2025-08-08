@@ -13,6 +13,12 @@ import {
 import { CloudUploadIcon, Trash2Icon } from "lucide-react";
 import { useRef, useState } from "react";
 
+// Strong typing for captions returned by the API
+type CaptionGroup = {
+  style: string;
+  captions: string[];
+};
+
 const ImageUpload = () => {
   const dropzone = useDropzone({
     onDropFile: async (file: File) => {
@@ -32,8 +38,12 @@ const ImageUpload = () => {
   });
 
   const [uploadingId, setUploadingId] = useState<string | null>(null);
-  const [captions, setCaptions] = useState<any[]>([]);
+  const [captions, setCaptions] = useState<CaptionGroup[]>([]);
   const captionsRef = useRef<HTMLDivElement>(null);
+
+  // Build backend URL from env with safe fallback and no trailing slash
+  const API_BASE = (process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8001").replace(/\/$/, "");
+  const UPLOAD_URL = `${API_BASE}/upload_image/`;
 
   // Handler to upload image to FastAPI
   const handleUploadToAPI = async (file: File, id: string) => {
@@ -42,19 +52,20 @@ const ImageUpload = () => {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:8001/upload_image/", {
+      const response = await fetch(UPLOAD_URL, {
         method: "POST",
         body: formData,
       });
       if (!response.ok) {
         throw new Error("Upload failed");
       }
-      const result = await response.json();
+      const result = (await response.json()) as CaptionGroup[];
       setCaptions(result); // Store captions JSON
       setTimeout(() => {
         captionsRef.current?.scrollIntoView({ behavior: "smooth" });
       }, 100); // Scroll to captions section
     } catch (error) {
+      console.error("Failed to upload image:", error);
       alert("Failed to upload image.");
     } finally {
       setUploadingId(null);
@@ -139,13 +150,13 @@ const ImageUpload = () => {
         <div ref={captionsRef} className="mt-10">
           <h2 className="text-2xl font-bold mb-4">Generated Captions</h2>
           <div className="flex flex-col gap-6">
-            {captions.map((item, idx) => (
-              <div key={idx}>
+            {captions.map((item) => (
+              <div key={item.style}>
                 <h3 className="text-lg font-semibold mb-2">{item.style}</h3>
                 <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-                  {item.captions.map((caption: string, cIdx: number) => (
+                  {item.captions.map((caption) => (
                     <div
-                      key={cIdx}
+                      key={caption}
                       className="relative bg-muted rounded-lg p-4 flex items-center"
                     >
                       <span className="flex-1 text-sm">{caption}</span>
