@@ -209,7 +209,7 @@ PRs are welcome. Please open an issue to discuss significant changes. Star the r
 
 ## License
 
-MIT License
+GNU Affero General Public License v3.0
 
 ## SEO Keywords
 

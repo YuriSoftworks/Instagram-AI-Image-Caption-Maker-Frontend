@@ -14,7 +14,8 @@ import {
   FileRejection,
   useDropzone as rootUseDropzone,
 } from "react-dropzone";
-import { Button, ButtonProps } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import type { VariantProps } from "class-variance-authority";
 
 type DropzoneResult<TUploadRes, TUploadError> =
   | {
@@ -650,7 +651,8 @@ const DropzoneMessage = forwardRef<HTMLParagraphElement, DropzoneMessageProps>(
 );
 DropzoneMessage.displayName = "DropzoneMessage";
 
-type DropzoneRemoveFileProps = ButtonProps;
+type DropzoneRemoveFileProps = React.ComponentProps<"button"> &
+  VariantProps<typeof buttonVariants> & { asChild?: boolean };
 
 const DropzoneRemoveFile = forwardRef<
   HTMLButtonElement,
@@ -681,7 +683,8 @@ const DropzoneRemoveFile = forwardRef<
 });
 DropzoneRemoveFile.displayName = "DropzoneRemoveFile";
 
-type DropzoneRetryFileProps = ButtonProps;
+type DropzoneRetryFileProps = React.ComponentProps<"button"> &
+  VariantProps<typeof buttonVariants> & { asChild?: boolean };
 
 const DropzoneRetryFile = forwardRef<HTMLButtonElement, DropzoneRetryFileProps>(
   ({ className, ...props }, ref) => {
