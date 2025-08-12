@@ -2,6 +2,30 @@
   "name": "instagram_caption_generator_frontend",
   "version": "0.1.0",
   "private": true,
+  "description": "Privacy-first AI Instagram caption generator frontend (Next.js) – upload an image and get creative, SEO-optimized captions powered by BLIP + Gemini/Gemma.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-.git"
+  },
+  "homepage": "https://github.com/jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-#readme",
+  "bugs": {
+    "url": "https://github.com/jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-/issues"
+  },
+  "keywords": [
+    "instagram",
+    "instagram captions",
+    "instagram caption generator",
+    "ai",
+    "blip",
+    "gemini",
+    "gemma",
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "fastapi",
+    "image captioning",
+    "seo"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

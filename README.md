@@ -5,7 +5,8 @@
 [![Issues](https://img.shields.io/github/issues/jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-)](https://github.com/jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-/issues)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-[![Star History Chart](https://api.star-history.com/svg?repos=jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-&type=Date)](https://star-history.com/#jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-&Date)
+[![CI](https://github.com/jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-/actions/workflows/ci.yml/badge.svg)](https://github.com/jambhaleAnuj/Instagram-AI-Image-Caption-Maker-Frontend-/actions)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FjambhaleAnuj%2FInstagram-AI-Image-Caption-Maker-Frontend-&project-name=instagram-ai-caption-maker-frontend&repository-name=Instagram-AI-Image-Caption-Maker-Frontend-&demo-title=Instagram%20AI%20Caption%20Generator&demo-description=Privacy-first%20AI%20Instagram%20caption%20generator%20using%20BLIP%20%2B%20Gemini%2FGemma&demo-url=https%3A%2F%2Fexample.com&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Fvercel%2Fnext.js%2Fcanary%2Fpackages%2Fcreate-next-app%2Ftemplates%2Fapp%2Fpublic%2Fopengraph-image.png)
 
 Generate creative, human-like, and SEO-optimized Instagram captions for your images using state-of-the-art AI models (BLIP + Google Gemini/Gemma). This is the Next.js frontend that connects to a FastAPI backend to upload images and display multiple caption styles. If you’re searching for an “Instagram caption generator,” “AI Instagram captions,” or “image-to-caption tool,” this project gives you a fast, privacy-first, and open-source solution.
 
@@ -217,4 +218,13 @@ Instagram AI caption generator, Instagram caption generator, AI Instagram captio
 ## Star This Project
 
 If this project helps you, please star it. Stars and shares help more creators discover a privacy-first caption generator.
+
+## GitHub SEO Checklist
+
+- Add GitHub Topics: `instagram`, `caption-generator`, `ai`, `blip`, `gemini`, `gemma`, `nextjs`, `react`, `tailwindcss`, `fastapi`.
+- Write a concise repo description with primary keywords.
+- Upload a strong Social preview image (see Screenshots).
+- Keep README updated with clear Features, Demo, and Screenshots.
+- Share the repo on X/LinkedIn/Reddit and cross-link from your backend repo.
+- Pin the repo to your GitHub profile for extra visibility.
 
